@@ -8,8 +8,9 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  person = ""
   
   passengers.each do |suite, name|
     if suite == suite_a && name.first == "A"
-      
+      person = name 
 end
